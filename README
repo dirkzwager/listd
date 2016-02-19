@@ -1,0 +1,10 @@
+On a 64-bits Linux machine: 
+$ tar -xvf Listd.tar
+$ cd Listd 
+$ make && make clean
+$ ./listd 
+
+% (define example (lambda (x) (* x x)))
+example 
+% (example 2) 
+4 
